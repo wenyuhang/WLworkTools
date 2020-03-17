@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/layout_content"
+    tools:context=".activitys.CusGroupActivity">
+
+    <View
+        android:id="@+id/top_view"
+        android:layout_width="0dp"
+        android:layout_height="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/img_author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@mipmap/ic_launcher"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/top_view" />
+
+    <View
+        android:id="@+id/view_special_divider"
+        android:layout_width="1dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="8dp"
+        android:background="#FFD667"
+        app:layout_constraintBottom_toBottomOf="@id/ll_my_group"
+        app:layout_constraintLeft_toRightOf="@id/img_author"
+        app:layout_constraintTop_toTopOf="@id/ll_my_group" />
+
+
+    <LinearLayout
+        android:id="@+id/ll_my_group"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical"
+        app:layout_constraintLeft_toRightOf="@id/view_special_divider"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/img_author">
+
+        <com.hyperx.wlworktools.test.LabelLayout
+            android:id="@+id/group_view"
+            android:layout_width="240dp"
+            android:layout_height="match_parent">
+        </com.hyperx.wlworktools.test.LabelLayout>
+
+    </LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:paddingRight="30dp"
+    android:id="@+id/recy_layout"
+    >
+
+    <ImageView
+        android:id="@+id/img_nav"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/nav_1"
+        />
+    <TextView
+        android:id="@+id/tv_ads_title"
+        android:layout_toRightOf="@id/img_nav"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="bottom"
+        android:text="回龙观地铁站"
+        android:textSize="18sp"
+        android:textColor="#333333"
+        android:lines="1"
+        android:ellipsize="end"
+        />
+    <TextView
+        android:id="@+id/tv_ads_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/img_nav"
+        android:text="北京市昌平区回龙观街道"
+        android:textSize="15sp"
+        android:layout_below="@id/tv_ads_title"
+        android:lines="1"
+        android:ellipsize="end"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_toRightOf="@id/img_nav"
+        android:background="@color/gray_a_color"
+        android:layout_alignParentBottom="true"
+        ></View>
+
+</RelativeLayout>

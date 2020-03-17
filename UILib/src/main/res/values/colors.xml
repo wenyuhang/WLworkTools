@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#008577</color>
+    <color name="colorAccent">#D81B60</color>
+
+
+    <!--white-->
+    <color name="white_a_color">#ffffff</color>
+    <color name="white_b_color">#e2e2e2</color>
+    <color name="white_c_color">#f4f4f4</color>
+    <color name="white_d_color">#fffaf3</color>
+
+    <!--black-->
+    <color name="black_a_color">#333333</color>
+    <color name="black_b_color">#262626</color>
+    <color name="black_c_color">#191919</color>
+    <color name="black_d_color">#47494F</color>
+
+    <!--gray-->
+    <color name="gray_a_color">#f0f0f0</color>
+    <color name="gray_b_color">#999999</color>
+    <color name="gray_c_color">#CDCDCD</color>
+    <color name="gray_d_color">#666666</color>
+    <color name="gray_e_color">#40BDBEBE</color>
+    <color name="gray_f_color">#9c9c9c</color>
+    <color name="gray_g_color">#838282</color>
+    <color name="gray_h_color">#eeeeee</color>
+    <color name="gray_i_color">#b8b2b3</color>
+    <color name="gray_j_color">#918b8c</color>
+    <color name="gray_k_color">#f5f5f5</color>
+
+    <color name="btn1">#69B056</color>
+    <color name="btn2">#FFD52B</color>
+    <color name="btn3">#CE413A</color>
+    <color name="btn4">#3F7FE4</color>
+    <color name="btn5">#A4C2F6</color>
+    <color name="btn6">#F78AE0</color>
+    <color name="btn7">#6638F0</color>
+    <color name="btn8">#5CD0FA</color>
+    <color name="btn9">#D93C33</color>
+    <color name="btn10">#D05C3C</color>
+    <color name="btn11">#985F9C</color>
+    <color name="btn12">#F6C150</color>
+    <color name="btn13">#4681F4</color>
+    <color name="btn14">#5EA379</color>
+    <color name="shape1">#5d8df7</color>
+    <color name="shape2">#5EB9F8</color>
+    <color name="shape3">#5CC2F8</color>
+
+    <!--green-->
+    <color name="green_a_color">#5e915e</color>
+    <color name="green_b_color">#8cc152</color>
+    <color name="green_c_color">#69B056</color>
+    <color name="green_d_color">#18C79D</color>
+    <color name="green_e_color">#4caf50</color>
+    <color name="green_f_color">#2AA145</color>
+
+    <!--pink-->
+    <color name="pink_a_color">#e0687e</color>
+
+
+    <!--red-->
+    <color name="red_a_color">#f0372e</color>
+    <color name="red_b_color">#ff2770</color>
+    <color name="red_c_color">#fb3041</color>
+    <color name="red_d_color">#ff4f64</color>
+
+    <!--blue-->
+    <color name="blue_a_color">#0080FF</color>
+
+    <!--purple-->
+    <color name="purple_a_color">#68228B</color>
+
+
+    <!--Alpha-->
+    <color name="alpha_a_black">#33000000</color>
+    <color name="alpha_b_black">#88000000</color>
+    <color name="alpha_c_black">#614e4e4d</color>
+    <color name="alpha_d_black">#4d292929</color>
+    <color name="alpha_e_black">#1a000000</color>
+    <color name="alpha_f_black">#1a0a0204</color>
+    <color name="alpha_g_black">#00000000</color>
+
+    <color name="font_grey">#8B949E</color>
+
+    <!--line-->
+    <color name="line_color">#e7e7e7</color>
+
+
+
+    <color name="base_text_color_light">#909090</color>
+    <color name="base_loading_background">#f7f7f7</color>
+
+
+    <color name="transparent">#00000000</color>
+
+    <!--100% —FF-->
+    <!--95% — F2-->
+    <!--90% — E6-->
+    <!--85% — D9-->
+    <!--80% — CC-->
+    <!--75% — BF-->
+    <!--70% — B3-->
+    <!--65% — A6-->
+    <!--60% — 99-->
+    <!--55% — 8C-->
+    <!--50% — 80-->
+    <!--45% — 73-->
+    <!--40% — 66-->
+    <!--35% — 59-->
+    <!--30% — 4D-->
+    <!--25% — 40-->
+    <!--20% — 33-->
+    <!--15% — 26-->
+    <!--10% — 1A-->
+    <!--5% — 0D-->
+    <!--0% — 00-->
+</resources>

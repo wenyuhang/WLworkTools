@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/layout_content"
+    android:background="@color/black_a_color"
+    tools:context=".activitys.CusGroupActivity">
+
+    <com.hyperx.wlworktools.test.CusRectView
+        android:id="@+id/rect_view"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:visibility="gone"
+        />
+    <com.hyperx.wlworktools.test.TableView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+    <com.hyperx.wlworktools.test.LabelLayout
+        android:id="@+id/group_view"
+        android:layout_width="250dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+    </com.hyperx.wlworktools.test.LabelLayout>
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:visibility="gone"
+        >
+        <com.hyperx.wlworktools.test.MyViewGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </com.hyperx.wlworktools.test.MyViewGroup>
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recy_view"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>
